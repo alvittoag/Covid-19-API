@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/0816bb1150.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+
+  <div class="scroll-tracker"></div>
+
+    <div class="container mt-3" id="header">
+        <div class="coulumns is-mobile is-centered">
+            <div class="column has-text-centered">
+
+                <h1 class="title"><i class="fa-solid fa-user-doctor"></i> Covid-19 API</h1>
+                <h2 class="subtitle is-6">Last project vanilla javascript</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5" id="inputButton">
+      <div class="columns is-mobile is-centered">
+        <div class="column is-two-thirds">
+          <input class="input is-rounded has-text-centered" id="input" type="text" placeholder="Masukan nama negara">
+        </div>
+        
+      </div>
+      <center><button class="button is-info is-rounded is-focused" id="button"><i class="fa-solid fa-magnifying-glass mr-1"></i> Search</button></center>
+    </div>
+
+    <div class="container mt-6 mb-5 slide_before slide_transition" id="subHeader">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <p class="title is-3" id="statistic">Statistik Covid-19 <span id="country"></span></p>
+          <p class="subtitle is-6"><i class="fa-solid fa-calendar-days"></i> Updated : <span id="date"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container  mt-5 mb-6" >
+      <div class="columns is-desktop is-centered" id="allCard">
+
+        <div class="column is-one-quarter">
+          <div class="card  slide_before slide_transition" id="card1">
+            <div class="card-content">
+              <div class="content ">
+                
+                <p class="title is-5 has-text-centered">Total Terkofirmasi</p>
+                <p class="has-text-centered subtitle is-5 mt-2" id="totalConf">---</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="card slide_before slide_transition" id="card2">
+            <div class="card-content">
+              <div class="content has-text-centered">
+                
+                <p class="title is-5 has-text-centered"><i class="fa-solid fa-chart-line"></i> Aktif</p>
+                
+                <p class="subtitle is-5 mt-2" id="active">---</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-one-quarter">
+          <div class="card slide_before slide_transition" id="card3">
+            <div class="card-content">
+              <div class="content has-text-centered">
+                
+                <p class="title is-5 has-text-centered"><i class="fa-solid fa-hospital-user"></i> Sembuh</p>
+                
+                <p class="subtitle is-5 mt-2" id="recovery">----</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column is-one-quarter">
+          <div class="card">
+            <div class="card-content slide_before slide_transition" id="card4">
+              <div class="content has-text-centered">
+                
+                <p class="title is-5 has-text-centered"><i class="fa-solid fa-bed-pulse"></i>  Meninggal</p>
+                
+                <p class="subtitle is-5 mt-2" id="death">---</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+
+    <div class="container is-centered slide_before slide_transition" id="footer">
+      <div class="columns has-text-centered">
+        <div class="column">
+          <footer class="p-5">
+            <p>
+              Created by <a href="https://www.instagram.com/alvittoag_/">Alvitto Aprilian Gumay</a>, I used CSS Framework by <a href="https://bulma.io/">Bulma</a> and I used API Public from <a href="https://rapidapi.com/">Rapid</a> don't forget I also use the icon from <a href="https://fontawesome.com/">Fontawsome</a>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    
+
+
+
+
+    <script src="animation.js"></script>
+    <script src="script.js" async></script>
+   
+
+</body>
+</html>

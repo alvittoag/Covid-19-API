@@ -1,0 +1,81 @@
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #allCard {
+      padding: 35px;
+    }
+    
+    #statistic {
+        font-size: 25px;
+    }
+
+
+
+    
+    
+  }
+
+
+
+
+
+#card1:hover, #card2:hover, #card3:hover, #card4:hover {
+    transform: scale(1.1);
+}
+
+
+#card1 {
+    background-color: #0078AA
+}
+
+#card1 p {
+    color: whitesmoke;
+}
+
+.footerP {
+  margin-top: 50px;
+}
+
+.fade_out {
+    opacity: 0;
+}
+
+.fade_transition {
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+/* ! Header */
+.slide_transitionDown {
+    position: relative;
+    transition-property: bottom;
+    transition-duration: 1s;
+}
+
+.slide_beforeDown {
+    bottom: 1000px;
+}
+
+.slide_afterDown {
+    bottom: 0;
+}
+
+/* ! CARD */
+.slide_transition {
+    position: relative;
+    transition-property: right;
+    transition-duration: 1s;
+}
+
+.slide_before {
+    right: 10000px;
+}
+
+.slide_after {
+    right: 0px;
+}
+
+
+
+
