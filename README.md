@@ -1,2 +1,2 @@
-# Tracking Data Covid-19. 
-This is I use vanilla javascript and the API I use from public APi
+# FrontEn - Tracking Data Covid-19. 
+ `Technologi : HTML, CSS , JavaScript, Bulma`
